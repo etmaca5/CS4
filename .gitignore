@@ -1,0 +1,26 @@
+# OCaml/dune build artifacts
+_build/
+*.install
+*.exe
+*.cm*
+*.o
+*.a
+*.so
+*.obj
+*.lib
+*.dll
+
+# Dune generated files
+.merlin
+
+# System files
+.DS_Store
+.vscode/
+.idea/
+*~
+*.swp
+*.swo
+
+# Local environment
+.env
+.envrc
