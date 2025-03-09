@@ -1,0 +1,9 @@
+(library  
+  (name cs4)  
+  (modules lab6)  ; these are the files we are compiling
+  (libraries num)  ; libraries we are using
+  (modes byte))    ; each project will need its own dune file
+
+(env  
+  (dev  
+    (flags (:standard -warn-error -A))))
