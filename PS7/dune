@@ -1,0 +1,26 @@
+(library
+  (name lab7)
+  (modules klotski_boards klotski gsearch)
+  (libraries str))
+
+(executable
+  (name klotski_tests)
+  (libraries lab7)
+  (modules klotski_tests)
+  (modes (byte exe)))
+
+(executable
+  (name klotski_solve)
+  (libraries lab7)
+  (modules klotski_solve)
+  (modes (native exe)))
+
+(executable
+  (name klotski_interact)
+  (libraries lab7)
+  (modules klotski_interact)
+  (modes (byte exe)))
+
+(env
+  (dev
+    (flags (:standard -w A-40-67 -warn-error -A))))

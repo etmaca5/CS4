@@ -1,0 +1,4 @@
+_build/
+tests_klotski
+klotski_solve
+klotski_interact
